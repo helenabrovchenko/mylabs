@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Cache-control" content="no-store">
+
+	<title>brovchenko lab 2</title>
+	<link rel="stylesheet" href="style4.css">
+	<script rel="script" type="text/javascript" src="script.js"></script>
+
+	<script>
+		
+	</script>
+</head>
+<body>
+	<div id="b1">
+		<p>Создать группу радиокнопок, с помощью которой можно сменить некоторую картинку на
+картину с мастью карты, которая указана в качестве подписи соответствующей радиокнопки
+(создайте четыре варианта выбора). Создайте обработку события формы onreset появлением
+строки «ПРИВЕТ,МИР» в одностроковом поле ввода информации данной формы.</p>
+		<form> <!--  action="handler.ptp"> -->
+			<p><b>Выбирите масть</b></p>
+			   <p><input name="cfrds" type="radio" value="pika" onclick="f1()">Пика</p>
+			   <p><input name="cfrds" type="radio" value="chirva" onclick="f2()">Чирва</p>
+			   <p><input name="cfrds" type="radio" value="trefa" onclick="f3()">Трефа</p>
+			   <p><input name="cfrds" type="radio" value="buba" onclick="f4()">Буна</p>
+        </form>
+    </div>
+    <div id="b2">
+    	<img id="card-image" src="untitled.png" onclick="f5()">
+    </div> 
+</body>
+</html>
